@@ -1,0 +1,34 @@
+.NavContainer{
+    width: 100%;
+    height: 100px;
+    background-color:var(--nav-bg);
+    display: flex;
+    justify-content: space-evenly;
+}
+.NavLogo{
+    width: 50%;
+}
+.NavList{
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    gap: 10px;
+}
+.NavList p:hover{
+    color: var(--hovColor);
+}
+.NavICons{
+    width: 60%;
+    font-weight: 600;
+    font-size: 23px;
+    gap: 8px;
+}
+.NavICons p:hover{
+    color: var(--hovColor);
+}
+.NavIconLanguage{
+    font-size: 14px;
+}
+.NavIconLanguage:hover{
+    color: var(--hovColor);
+}

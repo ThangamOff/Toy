@@ -1,0 +1,36 @@
+.shopCategoryContainer{
+    width:15%;
+}
+.shopCategoryToys{
+    width: 100%;
+    height: 280px;
+    flex-direction: column !important;
+}
+.shopCategoryToys p{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.shopCategoryToys p:hover{
+    color: var(--hovColor);
+}
+.shopCategoryCart{
+    width: 90%;
+    height: 200px;
+    padding: 20px;
+    border: 1px dashed gainsboro;
+    border-radius: 50%;
+    gap: 10px;
+}
+.shopCategoryCart:hover{
+    border: 1px dashed var(--hovColor);
+}
+.shopCategoryCart img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.shopCategoryCart img:hover{
+    transform: scale(1.2);
+    transition: 1.1s;
+}

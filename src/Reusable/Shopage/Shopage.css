@@ -1,0 +1,23 @@
+.shopageContainer{
+    width: 20%;
+    height: 130px;
+}
+.shopageImg{
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+.shopageImg img{
+    width: 100%;
+    height: 100%;
+}
+.shopageContent{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    flex-direction: column !important;
+}

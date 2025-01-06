@@ -1,0 +1,20 @@
+.shopcatedoryhomeContainer{
+    width: 100%;
+}
+.shopcatedoryhomeContainer h1{
+    width: 100%;
+    font-size: 40px;
+}
+.shopcatedoryhomeContent{
+    width: 100%;
+    display: flex;
+}
+.Shopcatedoryhome2{
+    width: 100%;
+    padding: 30px 0;
+}
+.Shopcatedoryhome3{
+    width: 100%;
+    background-color: rgb(255, 145, 0);
+    padding: 30px 0;
+}

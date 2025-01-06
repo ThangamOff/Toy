@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+  }
+
+:root{
+  --black:black;
+  --white:white;
+  --nav-bg: #FFFFFF;
+  --hovColor:#FC8584;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.padding10px{
+  padding: 10px;
+}
+.cursor{
+  cursor: pointer;
+}
