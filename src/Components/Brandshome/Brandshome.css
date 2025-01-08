@@ -1,0 +1,15 @@
+.BrandshomeContainer{
+    width: 100%;
+}
+.Brandshomeheader{
+    font-size: 40px;
+    font-weight: 600;
+}
+.BrandshomeContent{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

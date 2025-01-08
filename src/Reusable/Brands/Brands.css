@@ -1,0 +1,25 @@
+.BrandsContainer{
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BrandsImgcontain{
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    border: 1px dashed grey;
+    border-radius:25px;
+}
+.BrandsImgcontain:hover{
+    border: 1px dashed var(--hovColor);
+}
+.BrandsImg{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
+.BrandsImg img{
+    width: 100%;
+    height: 100%;
+}

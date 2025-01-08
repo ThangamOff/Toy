@@ -4,6 +4,11 @@ import bae from '../../Assets/Images/bae.jpg'
 import Youngster from '../../Reusable/Youngster/Youngster'
 import young1 from '../../Assets/Images/young1.jpg'
 import softDoggies from '../../Assets/Images/softDoggies.jpg'
+import one from '../../Assets/Images/one.jpg'
+import two from '../../Assets/Images/two.jpg'
+import three from '../../Assets/Images/three.jpg'
+import four from '../../Assets/Images/four.jpg'
+
 
 
 const Youngstershome = () => {
@@ -46,24 +51,24 @@ const Youngstershome = () => {
             img2 ={softDoggies}
             />
             <Youngster
-            img = {young1}
-            img2 ={softDoggies}
+            img = {one}
+            img2 ={two}
+            />
+            <Youngster
+            img = {three}
+            img2 ={four}
             />
             <Youngster
             img = {young1}
             img2 ={softDoggies}
             />
             <Youngster
-            img = {young1}
-            img2 ={softDoggies}
+            img = {one}
+            img2 ={two}
             />
             <Youngster
-            img = {young1}
-            img2 ={softDoggies}
-            />
-            <Youngster
-            img = {young1}
-            img2 ={softDoggies}
+            img = {three}
+            img2 ={four}
             />
           </div>
         </div>

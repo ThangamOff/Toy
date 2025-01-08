@@ -19,8 +19,8 @@ const Youngster = (props) => {
                 </div>
             </div>
             <div className='youngsterContent display'>
-                <p className='cursor'>Wooden Ponny</p>
-                <p>Rs. 650.00</p>
+                <p className='cursor'>{props.tittle}</p>
+                <p>{props.price}</p>
             </div>
             <div className='youngsterColor display cursor'>
                 <p></p>

@@ -1,0 +1,51 @@
+.newsCartContainer{
+    width: 100%;
+}
+.newsCartImg{
+    width: 95%;
+    height: 220px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.newsCartImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transform: scale(1);
+}
+.newsCartImg img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+.newsCartContent{
+    width: 95%;
+}
+.newsCartContent :nth-child(1){
+    font-size: 17px;
+    color: rgb(128, 128, 128);
+}
+.newsCartContent h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.newsCartContent h2:hover{
+    transition: 1s;
+    color: var(--hovColor);
+}
+.newsCartContent :nth-child(3){
+    font-size: 17px;
+}
+.newsCartContent button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--white);
+    background-color:var(--hovColor);
+    margin-bottom: 35px;
+}
+.newsCartContent button:hover{
+    transition: 1s;
+    background-color:var(--black);
+}

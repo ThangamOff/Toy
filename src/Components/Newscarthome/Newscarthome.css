@@ -1,0 +1,22 @@
+.newscarthomeContainer{
+    width: 100%;
+}
+.newscarthomeContent{
+    width: 80%;
+    margin: 0 auto;
+}
+.newscarthomeContent h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.newscarthomeContent p{
+    font-size: 18px;
+    color: rgb(161, 160, 160);
+    margin-bottom: 30px;
+}
+.newscarthomeContent1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,11 @@
+.FooderContainer{
+    width: 100%;
+    height: 100%;
+}
+.FooderContentContainer{
+    width: 95%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: bisque;
+}
