@@ -8,18 +8,18 @@ const Fooder = () => {
   return (
     <>
     <div className='FooderContainer'>
-      <div className='FooderContentContainer'>
+      <div className='FooderContentContainer display'>
 
-        <div>
+        <div className='fooderTouch'>
           <h1>Get In Touch With Us</h1>
-          <div>
-            <input type="text" />
-            <button>Subscribe</button>
+          <div className='fooderTouchInput'>
+            <input type="text" placeholder='Enter your mail here' />
+            <button className='cursor'>Subscribe</button>
           </div>
-          <p>NO Spam,we hate it more than you do.</p>
+          <p>No Spam,we hate it more than you do.</p>
         </div>
 
-        <div>
+        <div className='fooderLegal'>
           <h2>Legal</h2>
           <p>Faq</p>
           <p>Retailers</p>
@@ -28,7 +28,7 @@ const Fooder = () => {
           <p>Terms of use</p>
         </div>
 
-        <div>
+        <div className='fooderServices'>
           <h2>Services</h2>
           <p>Contact</p>
           <p>Careers</p>
@@ -37,17 +37,17 @@ const Fooder = () => {
           <p>Delivery Info</p>
         </div>
 
-        <div>
+        <div className='fooderContact'>
           <h2>Contact Us</h2>
-          <div>
+          <div className='fooderContactContent'>
             <p><HiOutlineLocationMarker /></p>
             <p>No: 58 A, East Madison Street,Baltimore,MD,USA 4508</p>
           </div>
-          <div>
+          <div className='fooderContactContent'>
             <p><IoMailOutline /></p>
             <p>info@example.com</p>
           </div>
-          <div>
+          <div className='fooderContactContent'>
             <p><PiPhonePlusThin /></p>
             <p>+000-123-456-789</p>
           </div>

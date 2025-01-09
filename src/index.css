@@ -16,6 +16,9 @@
   --white:white;
   --nav-bg: #FFFFFF;
   --hovColor:#FC8584;
+
+  --fooder:#F4F4F5;
+  --fooderFontColor:#626363;
 }
 .display{
     display: flex;

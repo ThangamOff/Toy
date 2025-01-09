@@ -1,6 +1,3 @@
-.newscarthomeContainer{
-    width: 100%;
-}
 .newscarthomeContent{
     width: 80%;
     margin: 0 auto;
@@ -14,9 +11,20 @@
     color: rgb(161, 160, 160);
     margin-bottom: 30px;
 }
-.newscarthomeContent1{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    gap: 10px;
+.sections{
+    width: 100%;
+    height: 75%;
 }
+.swiper {
+    width: 80%;
+}
+.swiper-slide {
+    width: 100%;
+    font-size: 18px;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}  

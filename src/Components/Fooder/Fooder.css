@@ -1,11 +1,115 @@
 .FooderContainer{
     width: 100%;
-    height: 100%;
 }
 .FooderContentContainer{
     width: 95%;
     height: 400px;
     margin: 0 auto;
     border-radius: 15px;
-    background-color: bisque;
+    gap: 25px;
+    padding: 0 20px;
+    background-color:var(--fooder);
+
+}
+.fooderTouch{
+    width: 100%;
+    flex-direction: column !important;
+}
+.fooderTouch h1{
+    font-size: 32px;
+    font-weight: 500;
+}
+.fooderTouch p{
+    font-size: 16px;
+    color: gray;
+    font-weight: 400;
+}
+.fooderTouchInput{
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px dashed var(--fooderFontColor);
+    border-radius: 13px;
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.fooderTouchInput input{
+    padding: 5px 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background-color:var(--fooder);
+    color: var(--fooderFontColor);
+}
+.fooderTouchInput button{
+    font-size: 15px;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 13px;
+    color: var(--white);
+    background-color: var(--hovColor);
+}
+.fooderTouchInput button:hover{
+    transition: 1s;
+    background-color: var(--black);
+}
+.fooderLegal{
+    width:50%;
+}
+.fooderLegal h2{
+    font-size:28px;
+    font-weight: 500;
+}
+.fooderLegal p{
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--fooderFontColor);
+}
+.fooderLegal p:hover{
+    transition: 1s;
+    color: var(--hovColor);
+}
+.fooderServices{
+    width: 50%;
+}
+.fooderServices h2{
+    font-size:28px;
+    font-weight: 500;
+}
+.fooderServices p{
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--fooderFontColor);
+}
+.fooderServices p:hover{
+    transition: 1s;
+    color: var(--hovColor);
+}
+.fooderContact{
+    width: 70%;
+}
+.fooderContact h2{
+    font-size:28px;
+    font-weight: 500;
+}
+.fooderContactContent{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 10px;
+}
+.fooderContactContent :nth-child(1){
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: var(--hovColor);
+}
+.fooderContactContent :nth-child(2){
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--fooderFontColor);
 }

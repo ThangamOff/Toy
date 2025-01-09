@@ -1,6 +1,5 @@
 import React from 'react'
 import './Newscart.css'
-import news1 from '../../Assets/Images/news1.png'
 
 const Newscart = (props) => {
   return (

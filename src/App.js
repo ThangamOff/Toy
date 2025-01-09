@@ -13,21 +13,13 @@ import Newarrivel from './Components/Newarrivel/Newarrivel';
 import Exclusivecollection from './Reusable/Exclusivecollection/Exclusivecollection';
 import Newscart from './Reusable/Newscart/Newscart';
 import Fooder from './Components/Fooder/Fooder';
+import Newscarthome from './Components/Newscarthome/Newscarthome';
 
 function App() {
   return (
     <div className="App">
       <Home/>
       <Fooder/>
-      {/* <Newscart/> */}
-      {/* <Navbar/>
-      <Toyprofile/>
-      <Shopcatedoryhome/>
-      <Youngstershome/> */}
-      {/* <Shopcategory/> */}
-      {/* <Category/> */}
-      {/* <Shopage/> */}
-      {/* <Youngster/> */}
     </div>
   );
 }

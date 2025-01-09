@@ -47,28 +47,40 @@ const Youngstershome = () => {
           <p className='YoungstershomeRightp'>Justo eget magna fermentum iaculis.</p>
           <div className='YoungstershomeRightImgs'>
             <Youngster
-            img = {young1}
-            img2 ={softDoggies}
+              img = {young1}
+              img2 ={softDoggies}
+              tittle ="Wooden Ponny"
+              price = "Rs.650.00"
             />
             <Youngster
-            img = {one}
-            img2 ={two}
+              img = {one}
+              img2 ={two}
+              tittle ="Soft Doggies"
+              price = "Rs.620.00"
             />
             <Youngster
-            img = {three}
-            img2 ={four}
+              img = {three}
+              img2 ={four}
+              tittle ="Pigky Bank"
+              price = "Rs.450.00"
             />
             <Youngster
-            img = {young1}
-            img2 ={softDoggies}
+              img = {young1}
+              img2 ={softDoggies}
+              tittle ="Giraffe Toy"
+              price = "Rs.657.00"
             />
             <Youngster
-            img = {one}
-            img2 ={two}
+              img = {one}
+              img2 ={two}
+              tittle ="Lovely Dog stuffed"
+              price = "Rs.620.00"
             />
             <Youngster
-            img = {three}
-            img2 ={four}
+              img = {three}
+              img2 ={four}
+              tittle ="Deer Doll"
+              price = "Rs.352.00"
             />
           </div>
         </div>
