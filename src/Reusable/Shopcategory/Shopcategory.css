@@ -1,5 +1,5 @@
 .shopCategoryContainer{
-    width:15%;
+    width:100%;
 }
 .shopCategoryToys{
     width: 100%;
@@ -34,3 +34,24 @@
     transform: scale(1.2);
     transition: 1.1s;
 }
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
